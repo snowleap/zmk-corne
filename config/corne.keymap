@@ -8,9 +8,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-//&mt {
-// retro-tap;
-//}
+&mt {
+ retro-tap;
+}
 
 / {
         keymap {
@@ -68,5 +68,6 @@
    &trans &trans    &trans  &trans    &kp C_EJECT    &trans      &kp C_PP    &kp RA(N)    &trans          &trans   &trans &trans
                                    &trans &trans &trans   &trans &trans &trans
                         >;
+                };
         };
 };
