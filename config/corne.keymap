@@ -10,7 +10,7 @@
 
 &mt {
  retro-tap;
-}
+};
 
 / {
         keymap {
